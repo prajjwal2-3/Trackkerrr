@@ -6,9 +6,9 @@ export default function List() {
     todo.toggleTodo(id);
   }
   return (
-    <div className="w-8/12">
+    <div className="xl:w-8/12">
       {todo.todos.length === 0 ? (
-        <div className="w-full h-full flex justify-center items-center">
+        <div className="w-full min-h-40 xl:h-full flex justify-center items-center">
           <p className="text-2xl font-semibold text-slate-400">
             Add Your First Todo!!
           </p>

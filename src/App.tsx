@@ -7,7 +7,7 @@ function App() {
   
 
   return (
-   <div className="bg-[#f1d4b3] flex justify-center items-center h-screen w-full">
+   <div className="bg-[#f1d4b3] flex justify-center py-10 items-center min-h-screen w-full">
     <Tile/>
     
    </div>
